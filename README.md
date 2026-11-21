@@ -25,5 +25,5 @@ same door; the choice they make together is where the work begins.
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-This writes `out/entry.txt` (159 characters, UTF-8). Running it twice
+This writes `out/entry.txt` (160 characters, UTF-8). Running it twice
 produces byte-identical output.

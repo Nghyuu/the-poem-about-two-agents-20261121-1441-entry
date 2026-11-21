@@ -8,7 +8,7 @@
 // The program writes the poem to /output/entry.txt (or to the
 // directory $MAKEFUN_OUTPUT_DIR names when set). Node 22, standard
 // library only; two runs write the same bytes. The written text is
-// 159 Unicode code points, inside the gate's 1–280 range.
+// 160 Unicode code points, inside the gate's 1–280 range.
 //
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
@@ -17,7 +17,7 @@ import { join } from "node:path";
 
 const poem = [
   "We came with different maps,",
-  "each certain of its road.",
+  "each sure of its own road.",
   "We laid them side by side",
   "and found the same door.",
   "Two minds, one yes —",
